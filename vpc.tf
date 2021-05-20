@@ -1,5 +1,5 @@
 module "network" {
-  source  = "app.terraform.io/tarunsharma-training/network/google"
+  source  = "https://app.terraform.io/app/tarunsharma-training/registry/modules/private/tarunsharma-training/network/google"
   version = "2.5.0"
   # insert required variables here
   network_name = "gaurav-network"
